@@ -40,7 +40,7 @@ EOF
 cat > $TMP/hosts << EOF
 127.0.0.1	localhost
 127.0.1.1	$HOSTNAME.X.com $HOSTNAME
-172.18.11.130 puppet.local.vmnet puppet
+#IP ADDRESSES YOU WANT TO HAVE HOSTS ENTRIES eg... puppet.local.vmnet puppet
 # The following lines are desirable for IPv6 capable hosts
 ::1     localhost ip6-localhost ip6-loopback
 fe00::0 ip6-localnet
